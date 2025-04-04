@@ -1,0 +1,134 @@
+/* General styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: whitesmoke;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    background-color: purple;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+  /* About image */
+  #about img {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    max-width: 150px;
+    border: 4px solid ;
+  }
+  
+  /* Section titles */
+  section h2 {
+    color: purple;
+    margin-bottom: 20px;
+  }
+  
+  /* Cards */
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    border-radius: 12px;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-body ul li {
+    padding: 5px 0;
+  }
+  
+  nav.navbar {
+    background-color: purple;
+    padding: 10px 0;
+    margin-bottom: 0;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    color: #ffc107;
+  }
+  
+  /* Form styling */
+  form input, form textarea {
+    border-radius: 10px;
+  }
+  
+  form button {
+    border-radius: 10px;
+  }
+  
+  /* Footer */
+  footer {
+    font-size: 0.9rem;
+  }
+  
+  /* Responsive tweaks */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    header p {
+      font-size: 1rem;
+    }
+  
+    form.w-50 {
+      width: 90% !important;
+    }
+  }
+  header {
+    margin-top: 60px; /* space between navbar and header */
+  }
+    
+  .btn-cv {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: violet;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+  }
+  
+  .btn-cv:hover {
+    background-color: purple;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 123, 255, 0.4);
+  }
+  
